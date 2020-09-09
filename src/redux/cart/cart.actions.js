@@ -18,3 +18,7 @@ export const removeItem= item=> ({
     type: CartActionTypes.REMOVE_ITEM,
     payload: item
 });
+// export const itemCount = itemCount=> ({
+//     type: CartActionTypes.ITEM_COUNT,
+//     payload: itemCount
+// })  //test but couldnt get to work
